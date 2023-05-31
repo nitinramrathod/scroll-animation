@@ -1,0 +1,26 @@
+[data-tg^=fade] {
+    opacity: 0;
+    transition: all 0.4s linear;
+  }
+  
+  [data-tg^=fade].tg-animate {
+    opacity: 1;
+    transform: translate(0);
+  }
+  
+  [data-tg=fade-up] {
+    transform: translate3d(0, 100px, 0);
+  }
+  
+  [data-tg=fade-down] {
+    transform: translate3d(0, -100px, 0);
+  }
+  
+  [data-tg=fade-right] {
+    transform: translate3d(-100px, 0, 0);
+  }
+  
+  [data-tg=fade-left] {
+    transform: translate3d(100px, 0, 0);
+  }
+  
